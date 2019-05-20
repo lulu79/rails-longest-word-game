@@ -1,3 +1,5 @@
+require 'open-uri'
+
 class GamesController < ApplicationController
   def new
     alphabet = ('a'..'z').to_a
